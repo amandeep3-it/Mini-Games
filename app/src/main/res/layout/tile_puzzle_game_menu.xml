@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mountain_background_2"
+    tools:context=".TilePuzzleGameMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/tile_puzzle_main_page.title"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="80dp" />
+
+        <Button
+            android:id="@+id/x3"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/tile_puzzle_main_page.x3"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="60dp"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/x4"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/tile_puzzle_main_page.x4"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="60dp"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/x5"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/tile_puzzle_main_page.x5"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="60dp"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/ranking"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/tile_puzzle_main_page.ranking"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="60dp"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+</ScrollView>
+    <!--Author: Amandeep Singh, Zefan Wu, Zhipeng Li-->

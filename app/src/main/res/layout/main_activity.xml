@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/mountain_background">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:text="@string/main_activity.title"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="120dp" />
+
+        <Button
+            android:id="@+id/hockey"
+            android:layout_height="wrap_content"
+            android:layout_width="270dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/main_activity.game_1"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/tile_puzzle"
+            android:layout_height="wrap_content"
+            android:layout_width="270dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="monospace"
+            android:text="@string/main_activity.game_2"
+            android:textSize="30sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="50dp"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/snow_fall" />
+
+</RelativeLayout>

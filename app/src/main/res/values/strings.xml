@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mini Games</string>
+    
+    <string name="main_activity.title">Interactive Mini Games</string>
+    <string name="main_activity.game_1">Glowing Hockey</string>
+    <string name="main_activity.game_2">Tile Puzzle</string>
+
+    <string name="hockey_game.initial_score">0</string>
+    <string name="hockey_game.player_1_won">Player 1 Won</string>
+    <string name="hockey_game.player_2_won">Player 2 Won</string>
+
+    <string name="tile_puzzle_main_page.title">Tile Puzzle</string>
+    <string name="tile_puzzle_main_page.x3">3X3</string>
+    <string name="tile_puzzle_main_page.x4">4X4</string>
+    <string name="tile_puzzle_main_page.x5">5X5</string>
+    <string name="tile_puzzle_main_page.ranking">RANKING</string>
+
+    <string name="tile_puzzle_game.reset">RESET</string>
+    <string name="tile_puzzle_game.you_won">YOU WON</string>
+    <string name="tile_puzzle_game.enter_name">Please Enter Your Name</string>
+    <string name="tile_puzzle_game.submit">Submit</string>
+
+    <string name="ranking.title">RANKING</string>
+
+    <string name="submit.button_1_text">PLAY AGAIN</string>
+    <string name="submit.button_2_text">MAIN MENU</string>
+
+</resources>
