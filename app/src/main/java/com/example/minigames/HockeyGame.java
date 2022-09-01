@@ -1,15 +1,15 @@
 package com.example.minigames;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.os.Handler;
-import android.content.Intent;
-
 import java.util.Locale;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+
+import android.media.MediaPlayer;
 import android.view.View;
 import android.widget.TextView;
-import android.media.MediaPlayer;
 
 public class HockeyGame extends Activity {
     private HockeyPlayer winner = null;
@@ -87,7 +87,7 @@ public class HockeyGame extends Activity {
     public synchronized boolean scored() {
         if (this.winner != null) return false;
 
-        int WiningStreak = 5;
+        int WiningStreak = 10;
 
         float ball_x = this.ball.getTranslationX(),
               ball_y = this.ball.getTranslationY();

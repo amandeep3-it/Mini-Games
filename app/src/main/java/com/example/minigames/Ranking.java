@@ -1,8 +1,5 @@
 package com.example.minigames;
 
-import android.app.Activity;
-import android.os.Bundle;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -11,6 +8,9 @@ import java.net.URL;
 
 import java.text.DateFormatSymbols;
 import java.util.Locale;
+
+import android.app.Activity;
+import android.os.Bundle;
 
 import android.view.Gravity;
 import android.widget.TextView;

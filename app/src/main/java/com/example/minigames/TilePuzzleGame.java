@@ -1,9 +1,15 @@
 package com.example.minigames;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.Locale;
+
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.content.Intent;
 
 import android.view.View;
 import android.view.MotionEvent;
@@ -11,12 +17,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Chronometer;
 import android.widget.RelativeLayout;
-
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Locale;
 
 public class TilePuzzleGame extends Activity {
     private final Main main = new Main();
